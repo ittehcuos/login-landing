@@ -1,0 +1,91 @@
+
+body{
+       height: 100vh;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       background-color: rgb(255, 255, 255);
+       background-image: url("/login/arbolhorizontal.JPG");
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       font-family: 'Comfortaa', cursive;
+}
+
+article.container{
+       width: 430px;
+       height: 500px;
+       background-size: cover;
+       border-radius: 10px;
+       box-shadow: 2px 2px 3px 2px rgb(153, 58, 90);
+       
+}
+
+div.containercolor{
+       background-color: rgb(0, 0, 0);
+       width: 430px;
+       height: 500px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       border-radius: 10px;
+}
+
+img {
+       width: 130px;
+}
+
+div.containeruser{
+       background-color: rgb(248, 202, 217);
+       border-radius: 100px;
+       width: 100px;
+       height: 100px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+}
+
+form{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+}
+
+
+
+h1.sesion{
+       font-size: 40px;
+       font-weight: bold;
+       color: rgb(248, 202, 217);
+}
+
+label {
+       width: 300px;
+}
+
+label.button{
+       background-color: rgb(153, 58, 90);
+}
+
+input.button{
+       background-color: rgb(153, 58, 90);
+       color: white;
+       border-color: rgb(248, 202, 217);
+       border-radius: 10px;
+       margin: 15px;
+       height: 40px;
+       font-size: 20px;
+}
+
+input{
+       width: 250px;
+       height: 30px;
+}
+
+a {
+       color: rgb(248, 202, 217);
+}
